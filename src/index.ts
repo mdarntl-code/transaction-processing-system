@@ -1,6 +1,6 @@
-import { ConsoleView } from "./mvc/ConsoleView";
-import { TransactionController } from "./mvc/TransactionController";
-import { TransactionModel } from "./mvc/TransactionModel";
+import { TransactionController } from "./mvc/controllers/TransactionController";
+import { TransactionModel } from "./mvc/model/TransactionModel";
+import { ConsoleView } from "./mvc/view/ConsoleView";
 import { ConsoleLogger } from "./observer/ConsoleLogger";
 import { EmailNotifier } from "./observer/EmailNotifier";
 
